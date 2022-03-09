@@ -4,8 +4,8 @@ function Form() {
 
     const movie = {
         id: 1,
-        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
-        title: "The Witcher",
+        image: "https://hollywoodforevertv.com.br/media/_versions/harry-potter-melhores-piores-filmes-critica_QjTeqVQ_widelg.jpg",
+        title: "Harry Potter e a Pedra Filosofal",
         count: 2,
         score: 4.5
     };
@@ -18,7 +18,8 @@ function Form() {
                 <form className="dsmovie-form">
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="email">Informe seu email</label>
-                        <input type="email" className="form-control" id="email" />
+                        <input type="email" className="form-control" id="email" required/>
+                        
                     </div>
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
