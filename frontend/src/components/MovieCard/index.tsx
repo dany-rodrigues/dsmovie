@@ -1,15 +1,12 @@
 import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
+import { Movie } from "types/movie";
 
-function MovieCard() {
+type Props = { 
+    movie: Movie;
+}
+function MovieCard({movie} : Props) {
 
-    const movie = {
-        id: 1,
-        image: "https://hollywoodforevertv.com.br/media/_versions/harry-potter-melhores-piores-filmes-critica_QjTeqVQ_widelg.jpg",
-        title: "Harry Potter e a Pedra Filosofal",
-        count: 2,
-        score: 4.5
-    };
 
     return (
         <div>
