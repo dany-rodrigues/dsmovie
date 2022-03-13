@@ -49,8 +49,6 @@ function Listing() {
 
                     )
                     )}
-
-
                 </div>
             </div>
         </>
